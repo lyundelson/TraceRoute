@@ -130,7 +130,7 @@ def get_route(hostname):
                     
                     dest = gethostbyaddr(addr[0])
                     #print (dest)
-                    destName = str(dest[0])
+                    destName = dest[0]
                     
                     #Fill in start
                     #Fill in end
@@ -176,6 +176,7 @@ def get_route(hostname):
                 break
             finally:
                 mySocket.close()
+    
     return tracelist2
         #print(tracelist1)
         #print(tracelist2)
