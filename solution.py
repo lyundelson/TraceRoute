@@ -178,4 +178,4 @@ def get_route(hostname):
         print(tracelist1)
         print(tracelist2)
 
-get_route("google.com")
+#get_route("google.com")
